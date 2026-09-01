@@ -1,0 +1,88 @@
+{
+  "purpose": "Chicago food and bar taste file for McClelland family agents. Prefer this over Google Maps Recents (Recents is search history, not visits).",
+  "updated": "2026-08-31",
+  "home_neighborhood": "South Loop",
+  "notes": [
+    "Google Timeline GPS is block-level. Adjacent storefronts get mixed up; trust named corrections over pin labels.",
+    "Recs should be clickable Google Maps links that open the business listing with walking directions from current location (place name, not a raw address).",
+    "Michelin mention is a plus, not a filter. Dives count if food or vibe is really good. High Google ratings are a quality signal."
+  ],
+  "taste": {
+    "pub_food": ["fish and chips", "English pies", "British/Irish pub fare"],
+    "vibe": "neighborhood gastropub and real pubs, not generic sports bars, except Third Rail before United Center"
+  },
+  "regulars": [
+    {
+      "name": "Printers Row Wine Shop",
+      "address": "719 S Dearborn St, Chicago",
+      "why": "South Loop happy-hour regular. Do not confuse with Vitalogy next door at 723."
+    },
+    {
+      "name": "Third Rail Tavern",
+      "address": "1133 W Madison St, Chicago",
+      "why": "Always go here before United Center. Do not confuse with Ryota at 1131."
+    },
+    {
+      "name": "The Staley",
+      "address": "1736 S Michigan Ave, Chicago",
+      "why": "Neighborhood sit-down; receipt May 2026."
+    },
+    {
+      "name": "Half Sour",
+      "address": "South Loop, Chicago",
+      "why": "Neighborhood regular from Timeline."
+    },
+    {
+      "name": "Buttercup",
+      "address": "75 E 16th St, Chicago",
+      "why": "South Loop cafe by day, bar at night. Neighborhood visits."
+    },
+    {
+      "name": "Spoke & Bird",
+      "address": "South Loop, Chicago",
+      "why": "Repeat: receipts Jun 22, Jun 28, Aug 7 2026."
+    }
+  ],
+  "loved": [
+    {
+      "name": "Chief O'Neill's Pub",
+      "address": "3471 N Elston Ave, Chicago",
+      "why": "Aug 30 2026 after Waveland Bowl. Both loved it: baked onion soup, Guinness cheddar soup, pot roast, chicken pot pie, Guinness, authentic Irish band."
+    },
+    {
+      "name": "Armitage Alehouse",
+      "address": "1000 W Armitage Ave, Chicago",
+      "why": "Named like: pike fish and chips, British/Indian pub fare. Rare as a Timeline visit."
+    },
+    {
+      "name": "Longman & Eagle",
+      "address": "2657 N Kedzie Ave, Chicago",
+      "why": "Named like; reserved Jan 31 2026. Did not show as a Timeline pin."
+    },
+    {
+      "name": "Pleasant House Pub",
+      "address": "2119 S Halsted St, Chicago",
+      "why": "Named like: Royal pies; fish and chips on Fridays. Pilsen."
+    }
+  ],
+  "confirmed_visits": [
+    {"name": "Giant", "when": "2026-05-28", "with": "Hannah"},
+    {"name": "Italian Homemade Company", "when": "2026-07-19"},
+    {"name": "The Publican", "when": "2026-07-29"},
+    {"name": "Monteverde", "when": "2026-08"},
+    {"name": "The Hideout", "when": "2026-08-22"},
+    {"name": "Duke of Perth", "when": "2026-02"},
+    {"name": "Waveland Bowl", "when": "2026-08-30"},
+    {"name": "Trivoli Tavern", "when": "2024-06"},
+    {"name": "Lou Malnati's West Loop", "when": "2024-05"}
+  ],
+  "ratings": {
+    "like": ["Navigator Taproom (5)", "Kroll's South Loop (5)"],
+    "skip": ["Pippin's Tavern (1)", "Bar Louie Printers Row (1)", "Devil Dawgs on State (1)"],
+    "meh": ["Fat Cat (3)"]
+  },
+  "not_these_pins": [
+    "Ryota (1131 W Madison) — next door to Third Rail, GPS mixup",
+    "Vitalogy (723 S Dearborn) — next door to Printers Row Wine Shop, GPS mixup"
+  ]
+}
