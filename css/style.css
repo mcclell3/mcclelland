@@ -1034,7 +1034,8 @@ button, a { -webkit-tap-highlight-color: transparent; }
   background: transparent;
 }
 .log-table thead th:nth-child(4),
-.log-table thead th:nth-child(5) { text-align: right; }
+.log-table thead th:nth-child(5),
+.log-table thead th:nth-child(6) { text-align: right; }
 .log-table td {
   vertical-align: top;
   padding: 0.48rem 0.55rem 0.48rem 0.7rem;
@@ -1043,9 +1044,11 @@ button, a { -webkit-tap-highlight-color: transparent; }
 .log-table tbody tr:last-child td { border-bottom-color: transparent; }
 .log-table td:first-child { width: 11.5rem; white-space: nowrap; }
 .log-table th:nth-child(4),
-.log-table td:nth-child(4),
+.log-table td:nth-child(4) { width: 12%; }
 .log-table th:nth-child(5),
-.log-table td:nth-child(5) { width: 13%; }
+.log-table td:nth-child(5) { width: 9%; }
+.log-table th:nth-child(6),
+.log-table td:nth-child(6) { width: 12%; }
 .log-time {
   display: block;
   font-weight: 600;
@@ -1351,4 +1354,45 @@ button, a { -webkit-tap-highlight-color: transparent; }
 .aurelia-pin-face svg {
   max-width: 18px;
   max-height: 18px;
+}
+
+.log-mom {
+  text-align: right;
+  white-space: nowrap;
+  font-weight: 500;
+  font-variant-numeric: tabular-nums;
+}
+.log-mom .log-src {
+  max-width: 7.5rem;
+}
+.is-walkup td { background: #eceae4; }
+.is-walkup .log-time { color: #5c5850; }
+.log-walkup {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0.34rem 0.4rem;
+  font-size: 0.58rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  line-height: 1.25;
+  text-transform: uppercase;
+  text-align: center;
+  color: #f4eee4;
+  background: #6b675f;
+  border: 1px solid #6b675f;
+}
+.log-tally-total td {
+  font-weight: 700;
+  border-top: 1px solid rgba(176, 137, 79, 0.4);
+  background: #e7efe6;
+}
+.log-tally-note {
+  margin: 0.35rem 0.75rem 0.6rem;
+  font-size: 0.78rem;
+  color: var(--muted);
+  max-width: 46rem;
 }
